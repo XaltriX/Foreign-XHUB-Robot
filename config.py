@@ -30,7 +30,7 @@ class Config:
     OWNER_ID = _int("OWNER_ID", 5706788169)                           # YOUR numeric Telegram ID (get it from @userinfobot)
     MONGO_URI_1 = _get("MONGO_URI_1", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")                    # MongoDB connection URL
     MONGO_DB_NAME = _get("MONGO_DB_NAME", "nightrider")    # same name as your old DB if you reuse it
-    DB_CHANNEL = _int("DB_CHANNEL", -1002004278204)                       # the channel that holds your files, like -1001234567890
+    DB_CHANNEL = _int("DB_CHANNEL", -1003526493094)                       # the channel that holds your files, like -1001234567890
 
     # ---------- OPTIONAL ----------
     LOG_CHANNEL = _int("LOG_CHANNEL", -1004317336836)                     # new-user logs go here (leave 0 to disable)
