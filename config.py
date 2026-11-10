@@ -28,8 +28,8 @@ class Config:
     API_HASH = _get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")                          # from my.telegram.org
     BOT_TOKEN = _get("BOT_TOKEN", "")                        # from @BotFather (use the SAME token as your old bot)
     OWNER_ID = _int("OWNER_ID", 5706788169)                           # YOUR numeric Telegram ID (get it from @userinfobot)
-    MONGO_URI_1 = _get("MONGO_URI_1", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")                    # MongoDB connection URL
-    MONGO_DB_NAME = _get("MONGO_DB_NAME", "nightrider")    # same name as your old DB if you reuse it
+    MONGO_URI_1 = _get("MONGO_URI_1", "mongodb+srv://RupsaRoy:ram123@cluster0.msvefse.mongodb.net/?appName=Cluster0")                    # MongoDB connection URL
+    MONGO_DB_NAME = _get("MONGO_DB_NAME", "foreignxbohdht")    # same name as your old DB if you reuse it
     DB_CHANNEL = _int("DB_CHANNEL", -1003526493094)                       # the channel that holds your files, like -1001234567890
 
     # ---------- OPTIONAL ----------
